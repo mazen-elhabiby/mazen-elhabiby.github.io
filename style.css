@@ -1,0 +1,181 @@
+*{
+    font-family: Arial, Verdana, Geneva, Tahoma, sans-serif, sans-serif;
+    color: rgb(95, 94, 94);  
+        
+}
+h1{
+    font-weight: normal;
+}
+h2{
+    font-weight: normal;
+}
+.profile h1 {
+    font-weight: normal;
+    padding: 0%;
+    margin: 0%;
+}
+.profile h2{
+    font-weight: normal;
+    padding: 0%;
+    margin: 0%;
+}
+.link{
+    color: blueviolet;
+    text-decoration: none;
+}
+
+nav {
+    
+    align-items: center;
+    justify-content:  space-between;
+    text-align: center;
+    border-top: blueviolet;
+    border-top-style: solid;
+    border-bottom: solid 1px #bbb;
+    padding: 1%;
+    margin: auto;
+    text-decoration: none;
+}
+nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+}
+
+nav li {
+    display: inline; 
+    font-size: 150%;
+    padding: 4%;
+}
+
+nav li a:hover{
+    color:blueviolet;
+    
+}
+
+
+nav li a{
+    text-decoration: none;
+    color: rgb(94, 93, 93);
+
+}
+.selected{
+    color:blueviolet
+}
+.box{
+    display: flex;
+    flex-direction: row;
+}
+img{
+    vertical-align: middle;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    box-shadow: 1px 1px ;
+}
+.profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-right: solid 1px #bbb;
+    margin: 5%;
+    height: 600px;
+    
+
+}
+.content{
+    max-width: 1200px;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+    
+    
+}
+
+.row-top{
+    padding-top: 5%;
+    justify-content: space-between;
+    display: flex;
+}
+.row-bottom{
+    justify-content: space-between;
+    display: flex;
+}
+
+
+.table{
+    
+    width: 95%;
+    font-size: larger;
+    
+}
+
+.bottom-footer{
+    text-align: center;
+    padding: 1%;
+    border-top: solid 1px #bbb ;
+    bottom: 0;
+    height: 10%;
+    
+}
+.content li{
+    font-size: larger;
+    padding: 1%;
+    list-style: "-";
+}
+.bar{
+    width: 75%;
+    height: 2rem;
+    accent-color: rgb(129, 58, 177);
+    
+
+}
+
+
+@media only screen and (max-width: 800px) {
+    .box{
+        flex-direction: column;
+    }
+    nav li{
+        font-size: 135%;
+        padding: 1%;
+    }
+    .profile{
+        align-items: center;
+        border-right: none;
+        margin: 5%;
+        height: 100%;
+        border-bottom: solid 1px #bbb;
+        
+    }
+    .content{
+        margin-top: 5%;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 2%;
+        
+
+    }
+    h1{
+        text-align: center;
+    }
+    h2{
+        text-align: center;
+    }
+    .bar
+    {
+        width: 90%;
+        align-items: center;
+    }
+    .table{
+        width: 95%;
+        font-size: larger;
+    }
+    
+    
+
+}
